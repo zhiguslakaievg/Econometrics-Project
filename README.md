@@ -45,23 +45,3 @@ Violent Crimes – насильственные преступления, кот
 реальный ВВП.  
 Данные были собраны с разных ресурсов, так что требуют некоторых преобразований для дальнейшего
 анализа.  
-```
-library(readr)
-
-id = "1qSh0gHUfvSJIKwLlszjNrq18Re9n-jat"
-crime = read.csv(sprintf("https://drive.google.com/uc?id=%s&export=download", id))
-
-
-library(dplyr)
-crime = rename(crime, Vcrime = 'Violent.Crimes') # переменные из файла
-crime = rename(crime, PR = 'Poverty.Rate')
-crime = rename(crime, UR = 'Unemployment.Rate')
-crime = rename(crime, PIPC  = 'Income.Per.Capita')
-crime = rename(crime, RGDP = 'Real.GDP')
-
-library(stringr)
-crime$PR = str_replace(crime$PR, ",", ".") 
-crime$PR = as.numeric(crime$PR) # приводим к числовому виду
-
-head(crime) 
-```
