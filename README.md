@@ -93,7 +93,7 @@ Data \ оставь картинку
 #### Переменная State. 
 State Description \ оставь картинку 
 Текстовая переменная, обозначающая название штата, имеющая 50 уникальных [значений](https://github.com/zhiguslakaievg/Econometrics-Project/blob/main/Database/Images/state_unique.png). \
-State Unique \  
+[State Unique](/Database/Images/state_unique.png)
 #### Переменная Vcrime. 
 ![Crimes Description](/Database/Images/crimes_desc.png)\
 Числовая переменная, указывающий количество совершенных насильственных преступлений (violent crimes) на 100 тысяч населения. 
