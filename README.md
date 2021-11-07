@@ -92,7 +92,7 @@ Data \ оставь картинку
 Мы взяли данные за 2010-2019 года, за 2020 не брали в целом, так как некоторые из необходимых значений будут известны лишь к концу 2021 - началу 2022 года из-за особенностей сбора статистики в отдельных штатах.  
 #### Переменная State. 
 State Description \ оставь картинку 
-Текстовая переменная, обозначающая название штата, имеющая 50 уникальных [значений] (https://github.com/zhiguslakaievg/Econometrics-Project/blob/main/Database/Images/state_unique.png). \
+Текстовая переменная, обозначающая название штата, имеющая 50 уникальных [значений](https://github.com/zhiguslakaievg/Econometrics-Project/blob/main/Database/Images/state_unique.png). \
 State Unique \  
 #### Переменная Vcrime. 
 ![Crimes Description](/Database/Images/crimes_desc.png)\
