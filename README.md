@@ -10,6 +10,26 @@
 
 ## Оглавление
 1. [Вводная часть](#one)
+  1.1 [Постановка вопроса](oneone)
+  1.2 [Постановка гипотезы](onetwo)
+  1.3 [Теоретическая часть](onethree)
+  1.4 [Актуальность вопроса](onefour)
+2. [Описание данных, разведанализ данных](#two)
+  2.1 [Описание данных](#twoone)
+  2.2 [Разведанализ данных](#twotwo)
+3. [Формулировка и обоснование модели](#three)
+4. [Ожидаемые результаты](#four)
+5. [Результаты регрессионного анализа](#five)
+6. [Анализ результатов](#six)
+7. [Ответ на содержательный вопрос](#seven)
+8. [Критический анализ результатов и анализ ограничений исследования](#eight)
+9. [Предложения по возможному расширению исследования](#nine)
+10. [Заключение](#ten)
+11. [Вклад членов команды](#eleven)
+12. [Приложения с техническими результатами](#twelve)
+13. [Приложения с кодами](#thirteen)
+14. [Источники](#fourteen)
+15. [Онлайн-приложения](#fifteen)
 
 ## <a name="one"> 1. Вводная часть, описывающая постановку и обоснование вопроса </a>
 ### <a name="oneone"> 1.1 Постановка вопроса </a>
@@ -151,6 +171,6 @@ California Data Description \
 2. Local Area Unemployment Statistics. U.S. Bureau of Labor Statistics. Retrieved from https://www.bls.gov/lau/ 
 3. Economic Data, Per Capita Personal Income, Real GDP. FRED. Retrieved from https://fred.stlouisfed.org/ 
 4. Distribution of Total Population by Federal Poverty Level. KFF. Retrieved from https://www.kff.org/state-category/demographics-and-the-economy/people-in-poverty/ 
-## <a name="fifteen"> Онлайн-приложения </a>
+## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [Основной датасет](/project_data.csv)
 2. [База данных с исходниками](/Database) 
