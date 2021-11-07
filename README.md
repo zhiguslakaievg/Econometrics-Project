@@ -65,7 +65,7 @@ Violent Crimes – насильственные преступления, кот
 Данные были собраны с разных ресурсов, так что требуют некоторых преобразований для дальнейшего
 анализа.
 ![Data](/Database/Images/data.png)\
-Ссылка на [rmd-файл](https://github.com/zhiguslakaievg/Econometrics-Project/blob/main/%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.Rmd)
+Ссылка на полный разведанализ данных: [rmd-файл](https://github.com/zhiguslakaievg/Econometrics-Project/blob/main/%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.Rmd)
 #### Рассмотрим обощающие данные по всем переменным:  
 #### Переменная Year. 
 Показывает год, за который были совершены преступления, является числовой.  
