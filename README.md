@@ -126,7 +126,7 @@ Real GDP - числовое значение реального ВВП штат�
 ''' math
 Violent Crimes = \beta_0 + \beta_1
 '''
-
+$'123 + 3b'$
 ## <a name="four"> 4. Ожидаемые результаты </a>
 
 ## <a name="five"> 5. Результаты регрессионного анализа </a>
@@ -162,6 +162,6 @@ Violent Crimes = \beta_0 + \beta_1
 3. Economic Data, Per Capita Personal Income, Real GDP. FRED. Retrieved from https://fred.stlouisfed.org/ 
 4. Distribution of Total Population by Federal Poverty Level. KFF. Retrieved from https://www.kff.org/state-category/demographics-and-the-economy/people-in-poverty/ 
 
-## Онлайн-приложения
+## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [Основной датасет](/project_data.csv)
 2. [База данных с исходниками](/Database) 
