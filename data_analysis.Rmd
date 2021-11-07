@@ -70,6 +70,8 @@ summary(crime$Vcrime)
 
 Значения колеблются в диапазоне от 112 до 885, где среднее (362) и медианное (339) близки друг к другу.
 
+![Crime](/Database/Images/crimes.png)
+
 ```{r message = FALSE, warning=FALSE, echo = F, comment = ""}
 library(ggplot2)
 ggplot() +
