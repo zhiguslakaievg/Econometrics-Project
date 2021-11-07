@@ -167,6 +167,12 @@ Ha
 
 ## <a name="thirteen"> 13. Приложения с кодами </a>
 
+'''
+model = lm(Violent.Crimes ~ Poverty.Rate + Unemployment.Rate + Income.Per.Capita + Real.GDP,
+data = data)
+summary(model)
+'''
+
 ## <a name="fourteen"> 14. Источники </a>
 1. United Health Foundation, National Violent Crime Data. America’s Health Rankings. Retrieved from https://www.americashealthrankings.org/explore/annual/measure/Crime/state/ALL?edition-year=2020 
 2. Local Area Unemployment Statistics. U.S. Bureau of Labor Statistics. Retrieved from https://www.bls.gov/lau/ 
