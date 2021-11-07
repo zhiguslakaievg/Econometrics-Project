@@ -196,4 +196,5 @@ summary(model)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [Основной датасет](/project_data.csv)
-2. [База данных с исходниками](/Database) 
+2. [База данных с исходниками](/Database)
+3. [Разведанализ](/data_analysis.pdf) 
