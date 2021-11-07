@@ -171,6 +171,8 @@ Ha = {Ho неверна}
 
 ## <a name="thirteen"> 13. Приложения с кодами </a>
 
+Код для создания регрессионного анализа
+ 
 ```
 model = lm(Violent.Crimes ~ Poverty.Rate + Unemployment.Rate + Income.Per.Capita + Real.GDP,
 data = data)
