@@ -191,8 +191,7 @@ Ha: {Ho неверна}
 Код для проведения регрессионного анализа
  
 ```
-model = lm(Violent.Crimes ~ Poverty.Rate + Unemployment.Rate + Income.Per.Capita + Real.GDP,
-data = data)
+model = lm(Vcrimes ~ PR + UR + PIPC + RGDP, data = crimes)
 summary(model)
 ```
 
