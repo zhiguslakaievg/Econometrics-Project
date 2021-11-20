@@ -135,7 +135,7 @@ Real GDP - числовое значение реального ВВП штат�
 Мы сформулировали модель следующим образом:
 
 ```
-Vcrime = β0 + β1*Poverty Rate + β2*Unemployment Rate + β3*Income per Capita + β4*Real GDP, где
+Vcrime = β0 + β1*Poverty Rate + β2*Unemployment Rate + β3*Income per Capita + β4*Real GDP
 ```
 + *Vcrime* - зависимая переменная; 
 
