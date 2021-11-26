@@ -218,6 +218,21 @@ model = lm(Vcrimes ~ PR + UR + PIPC + RGDP, data = crimes)
 summary(model)
 ```
 
+Код для проведения статистических тестов
+
+```
+reg0 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = data)
+reg1 = lm(Vcrime ~ UR + log(PIPC) + log(RGDP), data = data)
+reg2 = lm(Vcrime ~ PR + log(PIPC) + log(RGDP), data = data)
+reg3 = lm(Vcrime ~ PR + UR + log(RGDP), data = data)
+reg4 = lm(Vcrime ~ PR + UR + log(PIPC), data = data)
+lmtest::waldtest(reg1, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+lmtest::waldtest(reg2, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+lmtest::waldtest(reg3, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+lmtest::waldtest(reg4, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+# H0 отвергается только для PR
+```
+
 ## <a name="fourteen"> 14. Источники </a>
 1. United Health Foundation, National Violent Crime Data. America’s Health Rankings. Retrieved from https://www.americashealthrankings.org/explore/annual/measure/Crime/state/ALL?edition-year=2020 
 2. Local Area Unemployment Statistics. U.S. Bureau of Labor Statistics. Retrieved from https://www.bls.gov/lau/ 
