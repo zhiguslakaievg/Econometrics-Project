@@ -214,8 +214,9 @@ Ha: {Ho неверна}
 Код для проведения регрессионного анализа
  
 ```
-model = lm(Vcrimes ~ PR + UR + PIPC + RGDP, data = crimes)
-summary(model)
+model = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = data)
+coeftest(model, df = Inf, vcov = vcovHC, type = 'HC0')
+
 ```
 
 Код для проведения статистических тестов
