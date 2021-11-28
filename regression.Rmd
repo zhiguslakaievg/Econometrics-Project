@@ -2,7 +2,6 @@
 title: "Регрессионный анализ данных"
 output:
   html_document:
-    df_print: paged
   pdf_document: default
 ---
 
@@ -16,8 +15,10 @@ crime = read.csv(sprintf("https://drive.google.com/uc?id=%s&export=download", id
 library(dplyr)
 crime = crime %>% select(-X)
 
+#install.packages("lmtest")
 library(lmtest)
 library(stats)
+library(sandwich)
 ```
 
 В нашей модели мы приняли решение прологарифмировать переменные PIPC и RGDP из-за наличия выбросов и большого разброса значений. Также, из-за наличия гетероскедастичности в переменной RGDP мы рассчитали робастные оценки. 
@@ -26,7 +27,7 @@ library(stats)
 
 ```{r message = FALSE, warning=FALSE, echo = F, comment = ""}
 model = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = crime)
-coeftest(model, df = Inf, vcov = vcovHC, type = 'HC0') 
+coeftest(model, df = Inf, vcov = vcovHC, type = 'HC0')
 ```
 
 Согласно нашей модели, на уровне значимости 5% значимой является только переменная, содержащая информацию об уровне бедности.
