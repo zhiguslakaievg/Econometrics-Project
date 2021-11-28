@@ -259,6 +259,12 @@ Ha: {Ho неверна}
 2. Local Area Unemployment Statistics. U.S. Bureau of Labor Statistics. Retrieved from https://www.bls.gov/lau/ 
 3. Economic Data, Per Capita Personal Income, Real GDP. FRED. Retrieved from https://fred.stlouisfed.org/ 
 4. Distribution of Total Population by Federal Poverty Level. KFF. Retrieved from https://www.kff.org/state-category/demographics-and-the-economy/people-in-poverty/ 
+5. The Uniform Crime Reporting (UCR) Program. FBI. Retrieved from (https://www.fbi.gov/services/cjis/ucr)
+6. Bureau of Justice Statistics. Retrieved from (https://bjs.ojp.gov/)
+7. National crime rates compared. David P. Farrington, Patrick A. Langan, Michael Tonry (Bureau of Justice Statistics). Retrieved from (https://web.archive.org/web/20061115003526/http:/www.crimereduction.gov.uk/statistics/statistics35.htm)
+8. FBI 2019 Crime Statistics. FBI. Retrieved from (https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/cius-summary)
+9. Variables Affecting Crime. FBI. Retrieved from (https://ucr.fbi.gov/hate-crime/2011/resources/variables-affecting-crime)
+10. Dangerous states: Which states have the highest rates of violent crime and most murders?. USA TODAY. Retrieved from (https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [Основной датасет](/project_data.csv)
