@@ -216,7 +216,6 @@ Ha: {Ho неверна}
 ```
 model = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = data)
 coeftest(model, df = Inf, vcov = vcovHC, type = 'HC0')
-
 ```
 
 Код для проведения статистических тестов
