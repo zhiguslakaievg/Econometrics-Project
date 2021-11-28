@@ -250,28 +250,7 @@ Ha: {Ho неверна}
 
 ## <a name="thirteen"> 13. Приложения с кодами </a>
 
-Код для проведения регрессионного анализа
- 
-```
-model = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = data)
-coeftest(model, df = Inf, vcov = vcovHC, type = 'HC0')
-```
-
-Код для проведения статистических тестов
-
-```
-reg0 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = data)
-reg1 = lm(Vcrime ~ UR + log(PIPC) + log(RGDP), data = data)
-reg2 = lm(Vcrime ~ PR + log(PIPC) + log(RGDP), data = data)
-reg3 = lm(Vcrime ~ PR + UR + log(RGDP), data = data)
-reg4 = lm(Vcrime ~ PR + UR + log(PIPC), data = data)
-lmtest::waldtest(reg1, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
-lmtest::waldtest(reg2, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
-lmtest::waldtest(reg3, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
-lmtest::waldtest(reg4, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
-# H0 отвергается только для PR
-```
-
+[Код для проведения регрессионного анализа и статистических тестов](/regression.Rmd)
 
 [Результаты статистических тестов](/Database/Images/walds.png)
 
