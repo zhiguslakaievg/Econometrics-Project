@@ -267,6 +267,6 @@ Ha: {Ho неверна}
 10. Dangerous states: Which states have the highest rates of violent crime and most murders?. USA TODAY. Retrieved from (https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
-1. [Основной датасет](/project_data.csv)
+1. [Основной датасет](/project_data_new.csv)
 2. [База данных с исходниками](/Database)
-3. [Разведанализ](/data_analysis.pdf) 
+3. [Разведанализ](/data_analysis_new.pdf) 
