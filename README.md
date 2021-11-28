@@ -272,6 +272,9 @@ lmtest::waldtest(reg4, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
 # H0 отвергается только для PR
 ```
 
+
+[Результаты статистических тестов](/Database/Images/walds.png)
+
 ## <a name="fourteen"> 14. Источники </a>
 1. United Health Foundation, National Violent Crime Data. America’s Health Rankings. Retrieved from https://www.americashealthrankings.org/explore/annual/measure/Crime/state/ALL?edition-year=2020 
 2. Local Area Unemployment Statistics. U.S. Bureau of Labor Statistics. Retrieved from https://www.bls.gov/lau/ 
