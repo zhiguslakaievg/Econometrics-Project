@@ -267,6 +267,11 @@ Ha: {Ho неверна}
 8. FBI 2019 Crime Statistics. FBI. Retrieved from (https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/cius-summary)
 9. Variables Affecting Crime. FBI. Retrieved from (https://ucr.fbi.gov/hate-crime/2011/resources/variables-affecting-crime)
 10. "Dangerous states: Which states have the highest rates of violent crime and most murders?" . USA TODAY. Retrieved from (https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/)
+11. Yearbook of Immigration Statistics. Department of Homeland Security. Retrieved from (https://www.dhs.gov/immigration-statistics/yearbook)
+12. Climate Monitoring. National Oceanic and Atmospheric Administration. Retrieved from (https://www.ncdc.noaa.gov/climate-monitoring/)
+13. FastStats - Marriage and Divorce. Centers for Disease Control and Prevention. Retrieved from (https://www.cdc.gov/nchs/fastats/default.htm)
+14. Historical Population Density Data. United States Census Bureau. Retrieved from (https://www.census.gov/data/tables/time-series/dec/density-data-text.html)
+15. U.S. Marriage and Divorce Rates by State. United States Census Bureau. Retrieved from (https://www.census.gov/library/visualizations/interactive/marriage-divorce-rates-by-state-2009-2019.html)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [Основной датасет](/project_data_new.csv)
