@@ -277,4 +277,5 @@ Ha: {Ho неверна}
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [Основной датасет](Database/CSV/project_data_full.csv)
 2. [База данных с исходниками](/Database)
-3. [Разведанализ](/data_analysis_new.pdf) 
+3. [Разведанализ](/data_analysis_new.pdf)
+4. [Описательная статистика](Database/CSV/describe.csv) 
