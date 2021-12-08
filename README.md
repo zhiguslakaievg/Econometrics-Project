@@ -101,7 +101,7 @@ Violent Crimes – насильственные преступления, кот
 
 Чтобы изучить экономические условия штата, мы включили такие характеристики как количество совершенных насильственных преступлений, уровень бедности и безработицы, а также доход и реальный ВВП.
 
-[Предварительный просмотр данных.](/project_data_full.csv) 
+[Предварительный просмотр данных.](Database/CSV/project_data_full.csv) 
 
 #### Рассмотрим переменные более подробно:  
 Для подробного анализа мы также проверили корреляцию между зависимой переменной Vcrime и объясняющими переменными:
@@ -275,6 +275,6 @@ Ha: {Ho неверна}
 15. U.S. Marriage and Divorce Rates by State. United States Census Bureau. Retrieved from (https://www.census.gov/library/visualizations/interactive/marriage-divorce-rates-by-state-2009-2019.html)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
-1. [Основной датасет](/project_data_full.csv)
+1. [Основной датасет](Database/CSV/project_data_full.csv)
 2. [База данных с исходниками](/Database)
 3. [Разведанализ](/data_analysis_new.pdf) 
