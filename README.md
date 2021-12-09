@@ -279,21 +279,26 @@ Ha: {Ho неверна}
 ## <a name="eleven"> 11. Вклад членов команды в групповую работу </a>
 |                  	| Доля участия 	| Вклад в рамках проекта 	|
 |:----------------:	|:------------:	|:----------------------:	|
-| Федоров Д.А.     	|              	|                        	|
-| Дасмаева М.В.    	|              	|                        	|
-| Клечикова М.А.   	|              	|                        	|
-| Рахманова А.Ф.   	|              	|                        	|
-| Жигульская Е.Л.  	|              	|                        	|
-| Струговец М.     	|              	|                        	|
-| Бухановская Ю.А. 	|              	|                        	|
+| Федоров Д.А.     	|  22,5%        | Поиск данных, работа над разведанализом        |
+| Дасмаева М.В.    	|  22,5%        | Создание моделей, работа над разведанализом                       	|
+| Рахманова А.Ф.   	|  22,5%        | Создание моделей, работа над разведанализом                       	|
+| Бухановская Ю.А.  |  15%          |                        	|
+| Жигульская Е.Л. 	|  12%          |                        	|
+| Клечикова М.А.    |  2,75%        |                        	|
+| Струговец М.	    |  2,75%        |                        	|
+| Итого             |  100%       	|                        	|
 
 ## <a name="twelve"> 12. Приложения с техническими результатами </a>
 
+1. [Результаты регрессионного анализа и статистических тестов](Database/PDF/regression.pdf)
+2. [Результаты анализа парной регрессии](Database/PDF/analysis_regression.pdf)
+3. [Результаты анализа корреляции между переменными](Database/PDF/analysis_correlation.pdf)
+4. [Результаты проверки данных на гетероскедастичность](Database/PDF/analysis_heteroscedasticity.pdf)
+
 ## <a name="thirteen"> 13. Приложения с кодами </a>
 
-[Код для проведения регрессионного анализа и статистических тестов](/regression.Rmd)
-
-[Результаты статистических тестов](/Database/Images/walds.png)
+1. [Код разведанализа](Database/RMD/data_analysis_final.Rmd)
+2. [Код для проведения регрессионного анализа и статистических тестов](Database/regression.Rmd)
 
 ## <a name="fourteen"> 14. Источники </a>
 1. United Health Foundation, National Violent Crime Data. America’s Health Rankings. Retrieved from https://www.americashealthrankings.org/explore/annual/measure/Crime/state/ALL?edition-year=2020 
@@ -313,7 +318,8 @@ Ha: {Ho неверна}
 15. U.S. Marriage and Divorce Rates by State. United States Census Bureau. Retrieved from (https://www.census.gov/library/visualizations/interactive/marriage-divorce-rates-by-state-2009-2019.html)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
-1. [Основной датасет](Database/CSV/project_data_full.csv)
-2. [База данных с исходниками](/Database)
-3. [Разведанализ](/data_analysis_new.pdf)
-4. [Описательная статистика](Database/CSV/describe.csv) 
+1. [База данных](Database/)
+2. [Архив](Archive/)
+3. [Основной датасет](Database/CSV/project_data_full.csv)
+4. [Полный разведанализ](Database/PDF/data_analysis_final.pdf)
+5. [Описательная статистика](Database/CSV/describe.csv) 
