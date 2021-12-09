@@ -1,0 +1,91 @@
+---
+title: "Регрессионный анализ"
+output:
+  html_document:
+  pdf_document: default
+---
+
+```{r message = FALSE, warning=FALSE, echo = F, comment = ""}
+library(dplyr)
+library(stringr)
+library(car)
+library(stargazer)
+library(lmtest)
+library(broom)
+library(sandwich)
+library(tidyverse)
+library(kableExtra)
+#install.packages('formattable')
+library(formattable)
+library(gt)
+library(glue)
+
+# загрузка файла 
+library(readr)
+id = "1AnagwtSpBSvzewPYikjDwFiNAHztiQq_"
+crime = read.csv(sprintf("https://drive.google.com/uc?id=%s&export=download", id))
+```
+
+### Модели
+
+```{r message = FALSE, warning=FALSE, echo = F, comment = ""}
+# задаем модели
+model_1 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP), data = crime)
+model_2 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP) + Density, data = crime)
+model_3 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP) + Density + Immigrants, data = crime)
+model_4 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP) + Density + Immigrants + Marriage + Divorce, data = crime)
+model_5 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP) + Density + Immigrants + Marriage + Divorce + Temperature, data = crime)
+
+# считаем коэффициенты регрессии
+coef1 = coeftest(model_1, df = Inf, vcov = vcovHC, type = 'HC0')
+coef2 = coeftest(model_2, df = Inf, vcov = vcovHC, type = 'HC0')
+coef3 = coeftest(model_3, df = Inf, vcov = vcovHC, type = 'HC0')
+coef4 = coeftest(model_4, df = Inf, vcov = vcovHC, type = 'HC0')
+coef5 = coeftest(model_5, df = Inf, vcov = vcovHC, type = 'HC0')
+
+# создаем единую таблицу с коэффициентами
+stargazer(coef1, coef2, coef3, coef4, coef5, type='text')
+```
+
+
+В первой модели (четыре изначально предпологаемые переменные) нулевая гипотеза отвергается только для PR.
+
+Из-за появления контрольных переменных, значимые переменныеменяются. Однако значение уровня бедности (PR) значимо в любой модели. Также можно сказать, что логарифмируемый уровень дохода также значим при добавлении контрольных переменных.
+
+Таким образом, нулевая гипотеза отвергается для экономического состояния в целом на любом уровне значимости.
+
+Согласно нашей модели, на уровне значимости 5% значимыми являются следующие переменные:
+
+* Уровень бедности 
+* Логарифм дохода на душу населения (является значимой на уровне значимости 1%)
+
+```{r message = FALSE, warning=FALSE, echo = F, comment = ""}
+# все перменные
+reg0 = lm(Vcrime ~ PR + UR + log(PIPC) + log(RGDP) + Density + Marriage + Immigrants + Temperature + Divorce, data = crime) 
+# без PR
+reg1 = lm(Vcrime ~ UR + log(PIPC) + log(RGDP) + Density + Marriage + Immigrants + Temperature + Divorce, data = crime)
+# без UR
+reg2 = lm(Vcrime ~ PR + log(PIPC) + log(RGDP) + Density + Marriage + Immigrants + Temperature + Divorce, data = crime)
+# без log(PIPC)
+reg3 = lm(Vcrime ~ PR + UR + log(RGDP) + Density + Marriage + Immigrants + Temperature + Divorce, data = crime)
+# без log(RGDP)
+reg4 = lm(Vcrime ~ PR + UR + log(PIPC) + Density + Marriage + Immigrants + Temperature + Divorce, data = crime)
+
+# проведем тесты Вальда
+lmtest::waldtest(reg1, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+lmtest::waldtest(reg2, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+lmtest::waldtest(reg3, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+lmtest::waldtest(reg4, reg0, test = "Chisq", vcov = vcovHC(reg0, type = "HC0"))
+```
+
+Затем мы провели несколько тестов Вальда для проверки гипотезы, и они подтвердили наши результаты: нулевая гипотеза отвергается только для переменных PR и PIPC.
+
+```{r message = FALSE, warning=FALSE, echo = F, comment = ""}
+# без всех интересующих нас переменных
+reg5 = lm(Vcrime ~ Density + Marriage + Immigrants + Temperature + Divorce, data = crime)
+
+# тест Вальда
+lmtest::waldtest(reg5, reg0, test = 'Chisq', vcov = vcovHC(reg0, type = 'HC0'))
+```
+
+Также мы провели отдельный тест Вальда, чтобы проверить, значимы ли в целом наши переменные интереса. Согласно этому тесту, экономический статус значим на уровне значимости 1%.
