@@ -96,6 +96,11 @@ Violent Crimes – насильственные преступления, кот
 + RGDP - real GDP, all industry, all states. 
 + UR - unemployment rate, all states. 
 + PR - poverty rate, according to Poverty Level. 
++ Density
++ Marriage
++ Divorce
++ Immigrants
++ Temperature
 
 ### <a name="twotwo"> 2.2 Разведанализ данных </a>
 В нашем исследовании мы используем данные по **50 штатам США с 2010 по 2019 год.**
