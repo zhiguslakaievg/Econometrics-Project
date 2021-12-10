@@ -48,8 +48,6 @@
 
 Violent Crimes – насильственные преступления, которые включают: убийство, нападение, непредумышленное убийство, сексуальное насилие, ограбление, угроза, похищение, вымогательство и преследование. 
 
-Согласно статье [«National Crime Rates Compared»](https://web.archive.org/web/20061115003526/http:/www.crimereduction.gov.uk/statistics/statistics35.htm), уровень преступности в Америке по сравнению с другими странами с аналогичным уровнем богатства и развития зависит от характера преступления, используемого при сравнении. Общие сопоставления статистики преступности провести сложно, поскольку определение и классификация преступлений различаются в разных странах.
-
 По общим показателям Америка относится к безопасной стране с высоким уровнем жизни и доходов.  
 
 Тем не менее уровень преступности в США сильно отличается по штатам. Преступность является локальным явлением, и в некоторых штатах уровень насильственных преступлений все еще высок или выше, чем в начале 1990-х годов, сообщает [USA Today](https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/) на основе данных [Программы ФБР по отчетности о преступлениях в 2018 году](https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/topic-pages/violent-crime). 
@@ -73,9 +71,7 @@ Violent Crimes – насильственные преступления, кот
 + Отношение граждан к преступности
 + Практика информирования граждан о преступлениях.  
 
-Многие из этих факторов все равно так или иначе связаны с экономическими условиями в штате, так как уровень экономического развития штата так или иначе влияет на социальные условия в нем. Так как экономика — это система жизнеобеспечения людей и общества и по своей целевой направленности все экономические процессы в той или иной степени влияют на социальную сферу общества.  
-
-Мы предполагаем, что уровень экономики в штатах США напрямую воздействует на уровень преступности. Так, штаты с ограниченными экономическими возможностями и значительным процентом жителей, испытывающих финансовые трудности, как правило, имеют более высокие уровни насильственных преступлений.  
+Многие из этих факторов все равно так или иначе связаны с экономическими условиями в штате, так как уровень экономического развития штата так или иначе влияет на социальные условия в нем. Так как экономика — это система жизнеобеспечения людей и общества и по своей целевой направленности все экономические процессы в той или иной степени влияют на социальную сферу общества.   
 
 Мы предполагаем, что уровень экономики в штатах США напрямую воздействует на уровень преступности. Так, штаты с ограниченными экономическими возможностями и значительным процентом жителей, испытывающих финансовые трудности, как правило, имеют более высокие уровни насильственных преступлений, согласно статье [USA Today](https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/).
 
@@ -445,15 +441,14 @@ Ha: {Ho неверна}
 4. Distribution of Total Population by Federal Poverty Level. KFF. Retrieved from https://www.kff.org/state-category/demographics-and-the-economy/people-in-poverty/ 
 5. The Uniform Crime Reporting (UCR) Program. FBI. Retrieved from (https://www.fbi.gov/services/cjis/ucr)
 6. Bureau of Justice Statistics. Retrieved from (https://bjs.ojp.gov/)
-7. National crime rates compared. David P. Farrington, Patrick A. Langan, Michael Tonry (Bureau of Justice Statistics). Retrieved from (https://web.archive.org/web/20061115003526/http:/www.crimereduction.gov.uk/statistics/statistics35.htm)
-8. FBI 2019 Crime Statistics. FBI. Retrieved from (https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/cius-summary)
-9. Variables Affecting Crime. FBI. Retrieved from (https://ucr.fbi.gov/hate-crime/2011/resources/variables-affecting-crime)
-10. "Dangerous states: Which states have the highest rates of violent crime and most murders?" . USA TODAY. Retrieved from (https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/)
-11. Yearbook of Immigration Statistics. Department of Homeland Security. Retrieved from (https://www.dhs.gov/immigration-statistics/yearbook)
-12. Climate Monitoring. National Oceanic and Atmospheric Administration. Retrieved from (https://www.ncdc.noaa.gov/climate-monitoring/)
-13. FastStats - Marriage and Divorce. Centers for Disease Control and Prevention. Retrieved from (https://www.cdc.gov/nchs/fastats/default.htm)
-14. Historical Population Density Data. United States Census Bureau. Retrieved from (https://www.census.gov/data/tables/time-series/dec/density-data-text.html)
-15. U.S. Marriage and Divorce Rates by State. United States Census Bureau. Retrieved from (https://www.census.gov/library/visualizations/interactive/marriage-divorce-rates-by-state-2009-2019.html)
+7. FBI 2019 Crime Statistics. FBI. Retrieved from (https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/cius-summary)
+8. Variables Affecting Crime. FBI. Retrieved from (https://ucr.fbi.gov/hate-crime/2011/resources/variables-affecting-crime)
+9. "Dangerous states: Which states have the highest rates of violent crime and most murders?" . USA TODAY. Retrieved from (https://www.usatoday.com/story/money/2020/01/13/most-dangerous-states-in-america-violent-crime-murder-rate/40968963/)
+10. Yearbook of Immigration Statistics. Department of Homeland Security. Retrieved from (https://www.dhs.gov/immigration-statistics/yearbook)
+11. Climate Monitoring. National Oceanic and Atmospheric Administration. Retrieved from (https://www.ncdc.noaa.gov/climate-monitoring/)
+12. FastStats - Marriage and Divorce. Centers for Disease Control and Prevention. Retrieved from (https://www.cdc.gov/nchs/fastats/default.htm)
+13. Historical Population Density Data. United States Census Bureau. Retrieved from (https://www.census.gov/data/tables/time-series/dec/density-data-text.html)
+14. U.S. Marriage and Divorce Rates by State. United States Census Bureau. Retrieved from (https://www.census.gov/library/visualizations/interactive/marriage-divorce-rates-by-state-2009-2019.html)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [База данных](Database/)
