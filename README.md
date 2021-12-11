@@ -444,7 +444,7 @@ Ha: {Ho неверна}
 ## <a name="thirteen"> 13. Приложения с кодами </a>
 
 1. [Код разведанализа](Database/RMD/data_analysis_final.Rmd)
-2. [Код для проведения регрессионного анализа и статистических тестов](Database/regression.rmd)
+2. [Код для проведения регрессионного анализа и статистических тестов](Database/RMD/regression.rmd)
 
 ## <a name="fourteen"> 14. Источники </a>
 1. United Health Foundation, National Violent Crime Data. America’s Health Rankings. Retrieved from https://www.americashealthrankings.org/explore/annual/measure/Crime/state/ALL?edition-year=2020 
