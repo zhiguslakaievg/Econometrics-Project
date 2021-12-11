@@ -431,8 +431,7 @@ Ha: {Ho неверна}
 
 1. [Результаты регрессионного анализа и статистических тестов](Database/PDF/regression.pdf)
 2. [Результаты анализа парной регрессии](Database/PDF/analysis_regression.pdf)
-3. [Результаты анализа корреляции между переменными](Database/PDF/analysis_correlation.pdf)
-4. [Результаты проверки данных на гетероскедастичность](Database/PDF/analysis_heteroscedasticity.pdf)
+3. [Результаты проверки данных на гетероскедастичность](Database/PDF/analysis_heteroscedasticity.pdf)
 
 ## <a name="thirteen"> 13. Приложения с кодами </a>
 
