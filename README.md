@@ -461,6 +461,7 @@ Ha: {Ho неверна}
 12. FastStats - Marriage and Divorce. Centers for Disease Control and Prevention. Retrieved from (https://www.cdc.gov/nchs/fastats/default.htm)
 13. Historical Population Density Data. United States Census Bureau. Retrieved from (https://www.census.gov/data/tables/time-series/dec/density-data-text.html)
 14. U.S. Marriage and Divorce Rates by State. United States Census Bureau. Retrieved from (https://www.census.gov/library/visualizations/interactive/marriage-divorce-rates-by-state-2009-2019.html)
+15. US records largest annual increase in murders in six decades. Guardian. Retrieved from (https://www.theguardian.com/us-news/2021/sep/27/us-murder-rate-increase-2020)
 
 ## <a name="fifteen"> 15. Онлайн-приложения </a>
 1. [База данных](Database/)
